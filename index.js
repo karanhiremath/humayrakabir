@@ -23,7 +23,7 @@ app.get('/css/:file', function(req,res){
     res.sendFile(__dirname+'/css/'+file);
 })
 
-var server = app.listen(8080, function(){
+var server = app.listen(80, function(){
     var host = server.address().address;
     var port = server.address().port;
 
