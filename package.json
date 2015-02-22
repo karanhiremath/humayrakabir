@@ -1,0 +1,30 @@
+{
+  "name": "humayrakabir",
+  "version": "0.0.0",
+  "description": "Why Humayra Kabir Sucks",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/karanhiremath/humayrakabir.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Karan Hiremath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karanhiremath/humayrakabir/issues"
+  },
+  "homepage": "https://github.com/karanhiremath/humayrakabir",
+  "dependencies": {
+    "express": "~4.11.2",
+    "jade": "~1.9.2"
+  }
+}
